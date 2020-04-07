@@ -1,6 +1,15 @@
 # Ryyppy
 
-**TODO: Add description**
+``` 
+Given following author strings:
+  - http://github.com/ryyppy 
+  - https://twitter.com/ryyppy
+  - ryyppy
+
+  Write a function which processes given author to a structure containing the social media name and the username.
+  
+  by @ryyppy
+```
 
 ## Installation
 
