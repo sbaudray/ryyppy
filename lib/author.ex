@@ -7,7 +7,7 @@ defmodule Ryyppy.Author do
     struct(__MODULE__, fields)
   end
 
-  def from_string(str) when is_binary(str) do
+  def from_string(str) when is_binary(str) and byte_size(str) > 0 do
     parts = String.split(str, ".com/")
 
     case parts do
